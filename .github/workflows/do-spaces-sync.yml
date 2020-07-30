@@ -14,8 +14,8 @@ jobs:
       with:
         args: --acl public-read --follow-symlinks --delete
       env:
-        AWS_S3_BUCKET: fdn
+        AWS_S3_BUCKET: tdn
         AWS_ACCESS_KEY_ID: ${{ secrets.DO_SPACES_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.DO_SPACES_SECRET }}
-        SOURCE_DIR: 'd'
-        AWS_S3_ENDPOINT: sfo2.digitaloceanspaces.com
+        DEST_DIR: './d/'
+        AWS_S3_ENDPOINT: https://sfo2.digitaloceanspaces.com
