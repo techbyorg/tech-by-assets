@@ -17,5 +17,5 @@ jobs:
         AWS_S3_BUCKET: tdn
         AWS_ACCESS_KEY_ID: ${{ secrets.DO_SPACES_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.DO_SPACES_SECRET }}
-        DEST_DIR: 'd/'
+        DEST_DIR: 'assets/'
         AWS_S3_ENDPOINT: https://sfo2.digitaloceanspaces.com
